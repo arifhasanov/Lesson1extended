@@ -39,7 +39,7 @@ namespace ConsoleApp1
             //if the number is divided by divider2, then it gets its text
             //if it is dividable by both, then it will get both texts
             if (i % divider2 == 0) check += "Buzz";
-            //if the check is still empty, it means the number wasnt dividable by any of the dividers. In this case I add the number itself to the array. Otherwise I add the text.
+            //if the check is still empty, it means the number wasnt dividable by any of the dividers. In this case I add the number itself to the array. Otherwise I add the text
             return check == "" ? i.ToString() : check;
         }
     }
